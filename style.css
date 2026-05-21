@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: cadetblue;
+    background-color: papayawhip;
     font-family: 'Trebuchet MS', sans-serif;
     font-style: oblique;
 }
@@ -12,7 +13,7 @@ body {
 header {
     /* border: 2px solid black; */
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 header h1 {
@@ -21,18 +22,17 @@ header h1 {
 }
 
 section {
-    /* border: 2px solid saddlebrown; */
     text-align: center;
     padding: 20px 0;
 }
 
-.reset {
+button {
     background: black;
-    /* border: 2px solid red; */
-    color: goldenrod;
+    color: papayawhip;
     padding: 10px 20px;
     font-size: 2em;
     border-radius: 10%;
+    margin: 0 40px;
 }
 
 .container-parent {
@@ -43,6 +43,14 @@ section {
 
 .container {
     background-color: #fff;
-    height: 70vh;
-    width: 70vh;
+    height: 700px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.cell {
+    background-color: white;
+    border: 1px solid #2a2823;
 }
